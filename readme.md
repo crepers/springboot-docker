@@ -17,7 +17,7 @@ docker run -p 8080:8080 -t springio/springboot-docker -name sboot-docker
 and you can connect to it
 
 ```
-docker exec -it 12545f310402 /bin/sh
+docker exec -it {container name} /bin/sh
 ```
 
 ### Using Spring Profiles
